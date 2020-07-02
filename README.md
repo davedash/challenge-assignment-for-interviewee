@@ -11,14 +11,15 @@ to finish as many rounds as they needed to qualify for the finals because as we 
 and you can't score flops without catching a SNURTLE!
 
 
-* Your task is to select the 3 finalists out of the 30 compeitiors.  To be eligible the competior MUST of accumulated enough
-flops to accrue a score.  In order to qualify for the finals, they must have **AT LEAST 7 scorable floppings.**
+* Your task is to select the 3 finalists out of the 30 compeitiors.  In order to be eligible a competitor needs to have 
+**at least 7 scores** in the scores.yaml.
+
 
 * The final score for each compeitor is the avg of the scores, **EXCLUDING the best and worst score.**
 
 e.x.
 ```
-person_1:
+Mr. Rogers:
  - 90 # highest score is removed
  - 86
  - 65 
@@ -27,7 +28,7 @@ person_1:
  - 90
  - 77
  - 82
-person_2: #disqualified, didn't score the min number of floppings
+Chad: #disqualified, didn't didn't accumulate enough scores
  - 99
  - 88
  - 99
